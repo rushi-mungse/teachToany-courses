@@ -7,14 +7,14 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div className={styles.home_wrap}>
-      <Animation text="This is wonderful application for teaching and bissness !" />
+      <Animation text="This is wonderful application for learning and growing our skills !" />
       <div className={styles.content_wrap}>
         <img src="/images/teach-to-any.png" alt="teach-to-any" />
         <div className={styles.inner_content}>
           <h1>Welcome To teachToany!</h1>
           <p className={styles.para}>
-            Slack makes it clear what visitors should do. They can sign in or
-            create an account. Here, we have more navigation options than
+            teachToany makes it clear what visitors should do. They can sign in
+            or register an account. Here, we have more navigation options than
             Dropbox provides, but each contributes to helping visitors find what
             they want.
           </p>
