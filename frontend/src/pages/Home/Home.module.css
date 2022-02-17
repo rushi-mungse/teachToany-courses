@@ -38,3 +38,12 @@
 .url_signin {
   margin-top: 20px;
 }
+
+.url_signin a {
+  font-weight: bold;
+  color: #3f46ad;
+  transition: all 0.3s ease-in-out;
+}
+.url_signin a:hover {
+  color: #0011ff;
+}
